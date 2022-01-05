@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.xst" -ofn "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.syr" 

@@ -1,0 +1,132 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 5
+-n 3 -fastpaths -xml time_calculate.twx time_calculate.ncd -o
+time_calculate.twr time_calculate.pcf
+
+Design file:              time_calculate.ncd
+Physical constraint file: time_calculate.pcf
+Device,package,speed:     xc3s400,pq208,-5 (PRODUCTION 1.39 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+time_in<0>     |time_total<0>  |    7.589|
+time_in<0>     |time_total<1>  |    7.364|
+time_in<0>     |time_total<2>  |    7.856|
+time_in<0>     |time_total<3>  |    9.091|
+time_in<0>     |time_total<4>  |   10.474|
+time_in<0>     |time_total<5>  |   11.299|
+time_in<0>     |time_total<6>  |   12.121|
+time_in<0>     |time_total<7>  |   12.518|
+time_in<1>     |time_total<1>  |    8.009|
+time_in<1>     |time_total<2>  |    8.700|
+time_in<1>     |time_total<3>  |    9.935|
+time_in<1>     |time_total<4>  |   11.318|
+time_in<1>     |time_total<5>  |   12.143|
+time_in<1>     |time_total<6>  |   12.965|
+time_in<1>     |time_total<7>  |   13.362|
+time_in<2>     |time_total<2>  |    8.184|
+time_in<2>     |time_total<3>  |    8.814|
+time_in<2>     |time_total<4>  |   10.197|
+time_in<2>     |time_total<5>  |   11.022|
+time_in<2>     |time_total<6>  |   11.844|
+time_in<2>     |time_total<7>  |   12.241|
+time_in<3>     |time_total<3>  |    6.907|
+time_in<3>     |time_total<4>  |    8.875|
+time_in<3>     |time_total<5>  |    9.700|
+time_in<3>     |time_total<6>  |   10.522|
+time_in<3>     |time_total<7>  |   10.919|
+time_in<4>     |time_total<4>  |    7.733|
+time_in<4>     |time_total<5>  |    8.480|
+time_in<4>     |time_total<6>  |    9.302|
+time_in<4>     |time_total<7>  |    9.699|
+time_in<5>     |time_total<5>  |    7.229|
+time_in<5>     |time_total<6>  |    8.051|
+time_in<5>     |time_total<7>  |    8.448|
+time_in<6>     |time_total<6>  |    7.711|
+time_in<6>     |time_total<7>  |    7.810|
+time_in<7>     |time_total<7>  |    8.031|
+time_out<0>    |time_total<0>  |    8.507|
+time_out<0>    |time_total<1>  |    8.295|
+time_out<0>    |time_total<2>  |    9.157|
+time_out<0>    |time_total<3>  |   10.392|
+time_out<0>    |time_total<4>  |   11.775|
+time_out<0>    |time_total<5>  |   12.600|
+time_out<0>    |time_total<6>  |   13.422|
+time_out<0>    |time_total<7>  |   13.819|
+time_out<1>    |time_total<1>  |    7.414|
+time_out<1>    |time_total<2>  |    7.807|
+time_out<1>    |time_total<3>  |    9.042|
+time_out<1>    |time_total<4>  |   10.425|
+time_out<1>    |time_total<5>  |   11.250|
+time_out<1>    |time_total<6>  |   12.072|
+time_out<1>    |time_total<7>  |   12.469|
+time_out<2>    |time_total<2>  |    8.067|
+time_out<2>    |time_total<3>  |    9.074|
+time_out<2>    |time_total<4>  |   10.457|
+time_out<2>    |time_total<5>  |   11.282|
+time_out<2>    |time_total<6>  |   12.104|
+time_out<2>    |time_total<7>  |   12.501|
+time_out<3>    |time_total<3>  |    7.854|
+time_out<3>    |time_total<4>  |    8.836|
+time_out<3>    |time_total<5>  |    9.661|
+time_out<3>    |time_total<6>  |   10.483|
+time_out<3>    |time_total<7>  |   10.880|
+time_out<4>    |time_total<4>  |    7.459|
+time_out<4>    |time_total<5>  |    8.272|
+time_out<4>    |time_total<6>  |    9.094|
+time_out<4>    |time_total<7>  |    9.491|
+time_out<5>    |time_total<5>  |    7.882|
+time_out<5>    |time_total<6>  |    8.704|
+time_out<5>    |time_total<7>  |    9.101|
+time_out<6>    |time_total<6>  |    7.801|
+time_out<6>    |time_total<7>  |    8.214|
+time_out<7>    |time_total<7>  |    7.630|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jan 05 21:56:53 2022 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4490 MB
+
+
+
