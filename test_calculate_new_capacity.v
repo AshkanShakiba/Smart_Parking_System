@@ -39,10 +39,14 @@ module test_calculate_new_capacity;
 	);
 
 	initial begin
-		park_location = 8'b10000000; parking_capacity = 8'b01101100; #250; // new_capacity = 11101100
-		park_location = 8'b00010000; parking_capacity = 8'b11101111; #250; // new_capacity = 11111111
-		park_location = 8'b00000100; parking_capacity = 8'b10100000; #250; // new_capacity = 10100100
-		park_location = 8'b00000001; parking_capacity = 8'b10001000; #250; // new_capacity = 10001001
+		park_location = 8'b10000000; parking_capacity = 8'b01101100; #125; // new_capacity = 11101100
+		park_location = 8'b00010000; parking_capacity = 8'b11101111; #125; // new_capacity = 11111111
+		park_location = 8'b00000100; parking_capacity = 8'b10100000; #125; // new_capacity = 10100100
+		park_location = 8'b00000001; parking_capacity = 8'b10001000; #125; // new_capacity = 10001001
+		park_location = 8'b10000000; parking_capacity = 8'b11101100; #125; // new_capacity = 01101100
+		park_location = 8'b00010000; parking_capacity = 8'b11111111; #125; // new_capacity = 11101111
+		park_location = 8'b00000100; parking_capacity = 8'b10100100; #125; // new_capacity = 10100000
+		park_location = 8'b00000001; parking_capacity = 8'b10001001; #125; // new_capacity = 10001000
 	end
       
 endmodule

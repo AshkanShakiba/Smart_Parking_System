@@ -39,10 +39,10 @@ module test_parking_capacity_counter;
 	);
 
 	initial begin
-		new_capacity = 8'b00000000; #250; // parked = 0000 | empty = 1000
+		new_capacity = 8'b00000000; #250; // parked = 1000 | empty = 0000
 		new_capacity = 8'b10010110; #250; // parked = 0100 | empty = 0100
-		new_capacity = 8'b01011101; #250; // parked = 0101 | empty = 0011
-		new_capacity = 8'b11111111; #250; // parked = 1000 | empty = 0000
+		new_capacity = 8'b01011101; #250; // parked = 0011 | empty = 0101
+		new_capacity = 8'b11111111; #250; // parked = 0000 | empty = 1000
 	end
       
 endmodule

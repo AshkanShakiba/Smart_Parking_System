@@ -5,5 +5,35 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 34 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 35 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 36 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 37 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 38 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 39 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 40 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 41 </arg>Connection to input port &apos;<arg fmt="%s" index="2">S</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 41 </arg>Connection to input port &apos;<arg fmt="%s" index="2">A</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;parking_capacity_counter.v&quot; line 41 </arg>Connection to output port &apos;<arg fmt="%s" index="2">Sum</arg>&apos; does not match port size
+</msg>
+
 </messages>
 

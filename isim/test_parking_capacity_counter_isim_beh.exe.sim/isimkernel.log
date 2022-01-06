@@ -2,12 +2,12 @@ Command line:
    test_parking_capacity_counter_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  62226
+     -socket  51540
 
-Thu Jan 06 01:01:04 2022
+Thu Jan 06 13:09:51 2022
 
 
- Elaboration Time: 0.03125 sec
+ Elaboration Time: 0.0625 sec
 
  Current Memory Usage: 5154.19 Meg
 
@@ -20,9 +20,9 @@ Thu Jan 06 01:01:04 2022
  Total Traceable Variables  : 19
  Total Scalar Nets and Variables : 450
 
- Total Simulation Time: 0.046875 sec
+ Total Simulation Time: 0.140625 sec
 
- Current Memory Usage: 4682.33 Meg
+ Current Memory Usage: 5468.76 Meg
 
-Thu Jan 06 01:03:31 2022
+Thu Jan 06 13:10:36 2022
 

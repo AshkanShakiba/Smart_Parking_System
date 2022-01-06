@@ -37,6 +37,6 @@ adder_subtractor_1bit a3(0,new_capacity[3],new_capacity[2],w3);
 adder_subtractor_1bit a4(0,new_capacity[1],new_capacity[0],w4);
 adder_subtractor_2bit a5(0,w1,w2,w5);
 adder_subtractor_2bit a6(0,w3,w4,w6);
-adder_subtractor_3bit a7(0,w5,w6,parked);
-adder_subtractor_4bit a8(1,8,parked,empty);
+adder_subtractor_3bit a7(0,w5,w6,empty);
+adder_subtractor_4bit a8(1,8,empty,parked);
 endmodule

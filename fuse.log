@@ -1,36 +1,18 @@
-Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/University/LC Lab/Codes/LC_Project/test_parking_capacity_counter_isim_beh.exe -prj E:/University/LC Lab/Codes/LC_Project/test_parking_capacity_counter_beh.prj work.test_parking_capacity_counter work.glbl 
+Running: D:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o E:/University/LC Lab/Codes/LC_Project/test_calculate_new_capacity_isim_beh.exe -prj E:/University/LC Lab/Codes/LC_Project/test_calculate_new_capacity_beh.prj work.test_calculate_new_capacity work.glbl 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/full_adder.v" into library work
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/adder_subtractor_4bit.v" into library work
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/adder_subtractor_3bit.v" into library work
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/adder_subtractor_2bit.v" into library work
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/adder_subtractor_1bit.v" into library work
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" into library work
-Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/test_parking_capacity_counter.v" into library work
+Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/calculate_new_capacity.v" into library work
+Analyzing Verilog file "E:/University/LC Lab/Codes/LC_Project/test_calculate_new_capacity.v" into library work
 Analyzing Verilog file "D:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 38: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 39: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 41: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 36: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 37: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 40: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 42: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
-WARNING:HDLCompiler:189 - "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 43: Size mismatch in connection of port <S>. Formal port size is 1-bit while actual signal size is 32-bit.
 Completed static elaboration
-Compiling module full_adder
-Compiling module adder_subtractor_1bit
-Compiling module adder_subtractor_2bit
-Compiling module adder_subtractor_3bit
-Compiling module adder_subtractor_4bit
-Compiling module parking_capacity_counter
-Compiling module test_parking_capacity_counter
+Compiling module calculate_new_capacity
+Compiling module test_calculate_new_capacity
 Compiling module glbl
 Time Resolution for simulation is 1ps.
-Compiled 8 Verilog Units
-Built simulation executable E:/University/LC Lab/Codes/LC_Project/test_parking_capacity_counter_isim_beh.exe
-Fuse Memory Usage: 27984 KB
-Fuse CPU Usage: 265 ms
+Compiled 3 Verilog Units
+Built simulation executable E:/University/LC Lab/Codes/LC_Project/test_calculate_new_capacity_isim_beh.exe
+Fuse Memory Usage: 27728 KB
+Fuse CPU Usage: 358 ms

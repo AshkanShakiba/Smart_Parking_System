@@ -10,16 +10,17 @@
          <ClosedNode>/adder_subtractor E:|University|LC Lab|Codes|LC_Project|adder_subtractor.v</ClosedNode>
          <ClosedNode>/entry_park E:|University|LC Lab|Codes|LC_Project|entry_park.v</ClosedNode>
          <ClosedNode>/exit_park E:|University|LC Lab|Codes|LC_Project|exit_park.v</ClosedNode>
+         <ClosedNode>/parking_capacity_counter E:|University|LC Lab|Codes|LC_Project|parking_capacity_counter.v</ClosedNode>
          <ClosedNode>/time_calculate E:|University|LC Lab|Codes|LC_Project|time_calculate.v</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>token_production (E:/University/LC Lab/Codes/LC_Project/token_production.v)</SelectedItem>
+         <SelectedItem>calculate_new_capacity (E:/University/LC Lab/Codes/LC_Project/calculate_new_capacity.v)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000166000000020000000000000000000000000200000064ffffffff000000810000000300000002000001660000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000176000000020000000000000000000000000200000064ffffffff000000810000000300000002000001760000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>token_production (E:/University/LC Lab/Codes/LC_Project/token_production.v)</CurrentItem>
+      <CurrentItem>calculate_new_capacity (E:/University/LC Lab/Codes/LC_Project/calculate_new_capacity.v)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VERILOG" guiview="Process" >
       <ClosedNodes>
@@ -31,13 +32,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Synthesize - XST</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Synthesize - XST</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -69,10 +70,10 @@
          <ClosedNode>/adder_subtractor_4bit E:|University|LC Lab|Codes|LC_Project|adder_subtractor_4bit.v</ClosedNode>
          <ClosedNode>/exit_park E:|University|LC Lab|Codes|LC_Project|exit_park.v</ClosedNode>
          <ClosedNode>/test_calculate_new_capacity E:|University|LC Lab|Codes|LC_Project|test_calculate_new_capacity.v</ClosedNode>
-         <ClosedNode>/test_entry_checker E:|University|LC Lab|Codes|LC_Project|test_entry_checker.v</ClosedNode>
          <ClosedNode>/test_entry_park E:|University|LC Lab|Codes|LC_Project|test_entry_park.v</ClosedNode>
          <ClosedNode>/test_exit_park E:|University|LC Lab|Codes|LC_Project|test_exit_park.v</ClosedNode>
          <ClosedNode>/test_exit_park E:|University|LC Lab|Codes|LC_Project|test_exit_park.v/uut - exit_park</ClosedNode>
+         <ClosedNode>/test_parking_capacity_counter E:|University|LC Lab|Codes|LC_Project|test_parking_capacity_counter.v</ClosedNode>
          <ClosedNode>/test_time_calculate E:|University|LC Lab|Codes|LC_Project|test_time_calculate.v</ClosedNode>
          <ClosedNode>/test_token_production E:|University|LC Lab|Codes|LC_Project|test_token_production.v</ClosedNode>
          <ClosedNode>/time_calculate E:|University|LC Lab|Codes|LC_Project|time_calculate.v</ClosedNode>
@@ -80,9 +81,9 @@
       <SelectedItems>
          <SelectedItem>test_parking_capacity_counter (E:/University/LC Lab/Codes/LC_Project/test_parking_capacity_counter.v)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000197000000020000000000000000000000000200000064ffffffff000000810000000300000002000001970000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000196000000020000000000000000000000000200000064ffffffff000000810000000300000002000001960000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>test_parking_capacity_counter (E:/University/LC Lab/Codes/LC_Project/test_parking_capacity_counter.v)</CurrentItem>
    </ItemView>
@@ -105,13 +106,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Simulate Behavioral Model</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -119,13 +120,13 @@
          <ClosedNode>Design Utilities</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem/>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000010f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000010f0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem/>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Behavioral Simulation</CurrentView>
