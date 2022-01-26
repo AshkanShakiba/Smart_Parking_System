@@ -22,6 +22,7 @@
   <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="LC_Project.xise"/>
 
   <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="FSM_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FSM_stx_beh.prj"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
@@ -49,6 +50,17 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="calculate_new_capacity.syr"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="calculate_new_capacity.xst"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="calculate_new_capacity_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="controller.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="controller.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="controller.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="controller.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="controller.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="controller.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="controller.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="controller.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="controller_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="controller_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="controller_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="entry_checker_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="entry_park.cmd_log"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="entry_park.lso"/>
@@ -87,11 +99,39 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="parking_capacity_counter.xst"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="parking_capacity_counter_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="parking_capacity_counter_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="smart_parking.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="smart_parking.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="smart_parking.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="smart_parking.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="smart_parking.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="smart_parking.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="smart_parking.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="smart_parking.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="smart_parking_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="smart_parking_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="smart_parking_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="test_bench.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="test_bench.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_bench.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="test_bench.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="test_bench.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="test_bench.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_bench_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test_bench_envsettings.html"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_bench_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_bench_smart_parking_beh.prj"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_bench_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="test_bench_smart_parking.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="test_bench_smart_parking.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_bench_smart_parking.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="test_bench_smart_parking.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="test_bench_smart_parking.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test_bench_smart_parking_envsettings.html"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_bench_smart_parking_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="test_bench_smart_parking_isim_beh.wdb"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_bench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test_bench_smart_parking_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="test_bench_smart_parking_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="test_bench_stx_beh.prj"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="test_bench_summary.html"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="test_bench_xst.xrpt"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_calculate_new_capacity_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_entry_checker_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="test_entry_park_isim_beh.exe"/>
@@ -154,9 +194,13 @@
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643216139" xil_pn:in_ck="3491428411059052863" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1643216139">
+    <transform xil_pn:end_ts="1643226888" xil_pn:in_ck="3491428411059052863" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1643226888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FSM.v"/>
       <outfile xil_pn:name="adder_subtractor_1bit.v"/>
       <outfile xil_pn:name="adder_subtractor_2bit.v"/>
@@ -187,21 +231,27 @@
       <outfile xil_pn:name="token_production.v"/>
       <outfile xil_pn:name="update_capacity.v"/>
     </transform>
-    <transform xil_pn:end_ts="1643216187" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-8381668275417187865" xil_pn:start_ts="1643216187">
+    <transform xil_pn:end_ts="1643226888" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="-1562487087229302858" xil_pn:start_ts="1643226888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1643216188" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8497770440959678561" xil_pn:start_ts="1643216187">
+    <transform xil_pn:end_ts="1643226888" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="1343600875723518830" xil_pn:start_ts="1643226888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641420153" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="8695849328443484806" xil_pn:start_ts="1641420153">
+    <transform xil_pn:end_ts="1643226888" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="3240229827611989613" xil_pn:start_ts="1643226888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
     </transform>
-    <transform xil_pn:end_ts="1643216139" xil_pn:in_ck="3491428411059052863" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1643216139">
+    <transform xil_pn:end_ts="1643226888" xil_pn:in_ck="3491428411059052863" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1643226888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="FSM.v"/>
       <outfile xil_pn:name="adder_subtractor_1bit.v"/>
       <outfile xil_pn:name="adder_subtractor_2bit.v"/>
@@ -232,66 +282,75 @@
       <outfile xil_pn:name="token_production.v"/>
       <outfile xil_pn:name="update_capacity.v"/>
     </transform>
-    <transform xil_pn:end_ts="1643216191" xil_pn:in_ck="3491428411059052863" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-7592489861813826134" xil_pn:start_ts="1643216188">
+    <transform xil_pn:end_ts="1643226893" xil_pn:in_ck="3491428411059052863" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5377732692214231000" xil_pn:start_ts="1643226888">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_bench_smart_parking_beh.prj"/>
-      <outfile xil_pn:name="test_bench_smart_parking_isim_beh.exe"/>
+      <outfile xil_pn:name="test_bench_beh.prj"/>
+      <outfile xil_pn:name="test_bench_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1643216192" xil_pn:in_ck="1002192787584896819" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4988574965966408621" xil_pn:start_ts="1643216191">
+    <transform xil_pn:end_ts="1643226893" xil_pn:in_ck="1002192787584896819" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-2732597309838249653" xil_pn:start_ts="1643226893">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
-      <outfile xil_pn:name="test_bench_smart_parking_isim_beh.wdb"/>
+      <outfile xil_pn:name="test_bench_isim_beh.wdb"/>
     </transform>
     <transform xil_pn:end_ts="1641213741" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1641213741">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419379" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-3532691622909092569" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643227973" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="113077308804338003" xil_pn:start_ts="1643227973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419379" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8695849328443484806" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643227973" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="1934160671244476978" xil_pn:start_ts="1643227973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419379" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643227973" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1643227973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419379" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6873906367042221457" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643227973" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="322208500747935899" xil_pn:start_ts="1643227973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419379" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643227973" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-6388418249795389316" xil_pn:start_ts="1643227973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419379" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1254261459749400304" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643227973" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="3877378786321301308" xil_pn:start_ts="1643227973">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1641419390" xil_pn:in_ck="8351540957523545932" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="4032197826633154470" xil_pn:start_ts="1641419379">
+    <transform xil_pn:end_ts="1643228305" xil_pn:in_ck="1275922422306688296" xil_pn:name="TRANEXT_xstsynthesize_spartan3" xil_pn:prop_ck="3359527438462033170" xil_pn:start_ts="1643228300">
       <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name=".lso"/>
       <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
-      <outfile xil_pn:name="parking_capacity_counter.lso"/>
-      <outfile xil_pn:name="parking_capacity_counter.ngc"/>
-      <outfile xil_pn:name="parking_capacity_counter.ngr"/>
-      <outfile xil_pn:name="parking_capacity_counter.prj"/>
-      <outfile xil_pn:name="parking_capacity_counter.stx"/>
-      <outfile xil_pn:name="parking_capacity_counter.syr"/>
-      <outfile xil_pn:name="parking_capacity_counter.xst"/>
-      <outfile xil_pn:name="parking_capacity_counter_xst.xrpt"/>
+      <outfile xil_pn:name="controller.lso"/>
+      <outfile xil_pn:name="controller.ngc"/>
+      <outfile xil_pn:name="controller.ngr"/>
+      <outfile xil_pn:name="controller.prj"/>
+      <outfile xil_pn:name="controller.stx"/>
+      <outfile xil_pn:name="controller.syr"/>
+      <outfile xil_pn:name="controller.xst"/>
+      <outfile xil_pn:name="controller_xst.xrpt"/>
       <outfile xil_pn:name="webtalk_pn.xml"/>
       <outfile xil_pn:name="xst"/>
     </transform>

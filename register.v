@@ -23,19 +23,19 @@ input [7:0] D,
 input CLK, 
 input RST,
 input en,
-output [7:0] Q
+output reg [7:0] Q
 );
 
-reg [7:0] Q_reg;
+//reg [7:0] Q_reg;
 	 
 always @(posedge CLK or negedge RST)
 	begin
 		if(~RST)
-			Q_reg <= 8'b00000000;
-		if(RST && en)
-			Q_reg <= D;
+			Q = 8'b00000000;
+		else if(en)
+			Q = D;
 	end
 
-assign Q = Q_reg;
+//assign Q = Q_reg;
 
 endmodule

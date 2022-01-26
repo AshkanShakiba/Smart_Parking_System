@@ -1,4 +1,4 @@
-module test_bench();
+module test_bench;
    //Inputs
 reg [2:0]      system_token;
 reg            request;

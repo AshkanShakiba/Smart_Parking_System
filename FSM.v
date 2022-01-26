@@ -39,7 +39,7 @@ parameter request_state = 3'b101;
 parameter save_state = 3'b111;
 parameter trap_state = 3'b110;
 
-always @(request or posedge clock)
+always @(negedge request or posedge clock)
 	begin
 		if(~request) present = wait_state;
 		else present = next;

@@ -18,7 +18,7 @@
 ---  Module Name: test_bench_smart_parking
 -----------------------------------------------------------*/
 `timescale 1 ns/1 ns
-module test_bench_smart_parking();
+module test_bench_smart_parking;
 
 reg entry;
 reg [7:0] parking_capacity;

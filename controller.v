@@ -32,8 +32,8 @@ output [7:0] data_P
 
 wire R1,R2;
 
+FSM f(system_token,request,TimeData,reset,clock,confirm,user_token,R1,R2);
 register r1(TimeData,clock,reset,R1,data_P);
 register r2(TimeData,clock,reset,R2,data_Q);
-FSM f(system_token,request,TimeData,reset,clock,confirm,user_token,R1,R2);
 
 endmodule

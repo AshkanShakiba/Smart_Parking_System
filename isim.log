@@ -1,21 +1,11 @@
 ISim log file
-Running: E:\University\LC Lab\Codes\LC_Project\test_bench_smart_parking_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/University/LC Lab/Codes/LC_Project/test_bench_smart_parking_isim_beh.wdb 
+Running: E:\University\LC Lab\Codes\LC_Project\test_bench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb E:/University/LC Lab/Codes/LC_Project/test_bench_isim_beh.wdb 
 ISim P.20131013 (signature 0x7708f090)
 This is a Full version of ISim.
-WARNING:  For instance m4/as/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a1/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a2/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a3/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a4/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a5/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a6/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a7/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a8/, width 1 of formal port S is not equal to width 32 of actual constant.
-WARNING:  For instance m5/a8/, width 4 of formal port A is not equal to width 32 of actual constant.
-WARNING: File "E:/University/LC Lab/Codes/LC_Project/parking_capacity_counter.v" Line 26.  For instance m5/a8/, width 5 of formal port Sum is not equal to width 4 of actual signal parked.
 Time resolution is 1 ps
 # onerror resume
 # wave add /
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
+Stopped at time : 600 ns : File "E:/University/LC Lab/Codes/LC_Project/test_bench.v" Line 53
