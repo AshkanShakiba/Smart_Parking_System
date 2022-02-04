@@ -1,3 +1,0 @@
-verilog work "register.v"
-verilog work "FSM.v"
-verilog work "controller.v"
